@@ -49,6 +49,9 @@ cask cakebrew
 tap rcmdnk/file
 brew brew-file
 
+# Other Homebrew packages
+brew zsh-completion
+
 # App Store applications
 appstore 443987910 1Password (6.8.2)
 appstore 1233861775 Acorn (6.0.3)
