@@ -1,0 +1,173 @@
+cask_args appdir: '/Applications'
+
+# tap repositories and their packages
+tap 'homebrew/core'
+tap 'homebrew/bundle'
+tap 'homebrew/php'
+tap 'homebrew/services'
+tap 'caskroom/cask'
+tap 'rcmdnk/file'
+tap 'caskroom/drivers/logitech-unifying'
+
+# cask packages
+cask 'sublime-text'
+cask 'google-chrome'
+cask 'alfred'
+cask 'dropbox'
+cask 'handbrake'
+cask 'firefox'
+cask 'sequel-pro'
+cask 'spotify'
+cask 'things'
+cask 'tower'
+cask 'transmit'
+cask 'unrarx'
+cask 'vlc'
+cask 'iterm2'
+cask 'mamp'
+cask 'slack', args: {'force' => 'true'}
+cask 'steam'
+cask 'teamviewer'
+cask 'safari-technology-preview'
+cask 'cakebrew'
+cask 'fritzing'
+cask 'espresso'
+cask 'keyboard-maestro'
+cask 'visual-studio-code'
+cask 'google-earth-pro'
+cask 'applepi-baker'
+cask 'pibakery'
+cask 'forklift'
+cask 'bartender'
+cask 'tipp10'
+cask 'diskmaker-x'
+cask 'arduino'
+cask 'adobe-creative-cloud'
+cask 'eclipse-installer'
+cask 'tunnelbear'
+cask 'shortcat'
+# cask 'houdahspot' - no licensekey
+
+# brew packages
+brew 'autoconf'
+brew 'automake'
+# brew 'bash-completion'
+brew 'coreutils'
+brew 'dnsmasq'
+brew 'duck'
+brew 'freetype'
+brew 'gettext'
+brew 'git'
+brew 'gmp'
+brew 'icu4c'
+brew 'isl'
+brew 'jpeg'
+brew 'libgpg-error'
+brew 'libksba'
+brew 'libmpc'
+brew 'libpng'
+brew 'libtool'
+brew 'libxml2'
+brew 'libyaml'
+brew 'mas'
+brew 'mpfr'
+brew 'mysql'
+brew 'nginx'
+brew 'node'
+brew 'npm'
+brew 'openssl'
+brew 'openssl@1.1'
+brew 'pcre'
+brew 'pkg-config'
+brew 'readline'
+brew 'unixodbc'
+brew 'wget'
+brew 'yarn'
+brew 'php71'
+brew 'brew-file'
+# Other Homebrew packages
+brew 'zsh-completion'
+
+# App Store applications
+mas '1Password', id: 443987910
+mas 'Acorn', id: 1233861775
+mas 'Affinity Designer', id: 824171161
+mas 'Affinity Photo', id: 824183456
+mas 'Apple Configurator 2', id: 1037126344
+mas 'BetterSnapTool', id: 417375580
+mas 'Blogo', id: 902111700
+mas 'Chargeberry', id: 1213927649
+mas 'CleanMyDrive 2', id: 523620159
+mas 'Commander One', id: 1035236694
+mas 'ControlAir', id: 950009491
+mas 'Copia', id: 1162224626
+mas 'CopyClip', id: 595191960
+mas 'CSS Warped Text', id: 955228025
+mas 'DaisyDisk', id: 411643860
+mas 'Divvy', id: 413857545
+mas 'Duplicate File Finder', id: 1032755628
+mas 'e-Sword X', id: 968437868
+mas 'EasyFind', id: 411673888
+mas 'EazyDraw', id: 412624365
+mas 'Encrypto', id: 935235287
+mas 'Evernote', id: 406056744
+mas 'Filters for Photos', id: 1083965373
+mas 'Flowchart Designer lite', id: 1107185578
+mas 'Folders Factory', id: 442153412
+mas 'Foldery', id: 815333099
+mas 'ForkLift', id: 412448059
+mas 'Fusion3', id: 86896881060
+mas 'Gemini', id: 463541543
+mas 'Grafio Reader', id: 1187844952
+mas 'Growl', id: 467939042
+mas 'HP Easy Scan', id: 967004861
+mas 'iBooks Author', id: 490152466
+mas 'Icona Folder', id: 585636227
+mas 'Image2', id: 992115977Icon
+mas 'Irvue', id: 1039633667
+mas 'iWrite', id: 1022441331
+mas 'JSON Helper', id: 453114608
+mas 'Keynote', id: 409183694
+mas 'Location Helper', id: 488536386
+mas 'Mail Designer 3', id: 125818997665
+mas 'Monity', id: 915542151
+mas 'Moom', id: 419330170
+mas 'Muscle | Skeleton', id: 1038133000
+mas 'Numbers', id: 409203825
+mas 'OmniGraffle', id: 1142578753
+mas 'OmniPlan', id: 1040002810
+mas 'OneDrive', id: 823766827
+mas 'Pages', id: 409201541
+mas 'PaintCode', id: 808809998
+mas 'Pixelmator', id: 407963104
+mas 'Popup Window Free', id: 725295967
+mas 'RailModeller Express', id: 1008811516
+mas 'RegExRX', id: 498370702
+mas 'Say', id: 985471822
+mas 'Screenmeet', id: 1163969663
+mas 'Scrivener', id: 418889511
+mas 'Shazam', id: 897118787
+mas 'SketchBook', id: 863486266
+mas 'Skitch', id: 425955336
+mas 'Spark', id: 1176895641
+mas 'Sparkle', id: 863015334
+mas 'Swingdo', id: 1091869961
+mas 'Textastic', id: 572491815
+mas 'TextWrangler', id: 404010395
+mas 'The Unarchiver', id: 425424353
+mas 'Toolbox for MS Office - Templates Bundle', id: 955778068
+mas 'Transmit', id: 403388562
+mas 'Trello', id: 1278508951
+mas 'Twitter', id: 409789998
+mas 'UlyssesMac', id: 1225570693
+mas 'unrar', id: 1071663619
+mas 'VisualJSON', id: 488709442
+mas 'VisualXML', id: 617516344
+mas 'WeDo', id: 1115322594
+mas 'WhatsApp', id: 1147396723
+mas 'WISO steuer 2017', id: 1127370416
+mas 'Wix Photo Albums', id: 1281329434
+mas 'Writedown!', id: 574184591
+mas 'XChat Azure', id: 447521961
+mas 'Xcode', id: 497799835
+mas 'Yoink', id: 457622435
