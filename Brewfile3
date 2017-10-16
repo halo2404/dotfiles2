@@ -1,3 +1,10 @@
+# Requirements:
+# hemebrew – http://brew.sh/
+# brew bundle – https://github.com/Homebrew/homebrew-bundle
+# cask – https://caskroom.github.io/ (installed automatically)
+# mas-cli – https://github.com/argon/mas
+# tap repositories and their packages
+
 cask_args appdir: '/Applications'
 
 # tap repositories and their packages
