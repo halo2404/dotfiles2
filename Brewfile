@@ -1,10 +1,37 @@
+cask_args appdir: '/Applications'
 
 # tap repositories and their packages
-
 tap homebrew/core
+tap homebrew/bundle
+tap homebrew/php
+tap homebrew/services
+tap caskroom/cask
+tap rcmdnk/file
+tap caskroom/drivers/logitech-unifying
+
+# cask packages
+cask cakebrew
+cask fritzing
+cask espresso
+cask keyboard-maestro
+cask visual-studio-code
+cask google-chrome
+cask google-earth-pro
+cask dropbox
+cask applepi-baker
+cask pibakery
+cask forklift
+cask bartender
+cask tipp10
+cask diskmaker-x
+cask arduino
+cask adobe-creative-cloud
+cask eclipse-installer
+
+# brew packages
 brew autoconf
 brew automake
-brew bash-completion
+# brew bash-completion
 brew coreutils
 brew dnsmasq
 brew duck
@@ -35,20 +62,8 @@ brew readline
 brew unixodbc
 brew wget
 brew yarn
-
-tap homebrew/bundle
-
-tap homebrew/php
 brew php71
-
-tap homebrew/services
-
-tap caskroom/cask
-cask cakebrew
-
-tap rcmdnk/file
 brew brew-file
-
 # Other Homebrew packages
 brew zsh-completion
 
@@ -68,7 +83,6 @@ appstore 1162224626 Copia (1.1.1)
 appstore 595191960 CopyClip (1.9)
 appstore 955228025 CSS Warped Text (1.0.1)
 appstore 411643860 DaisyDisk (4.4)
-appstore 1058901042 DesktopChat for WhatsApp (1.3.8)
 appstore 413857545 Divvy (1.5.1)
 appstore 1032755628 Duplicate File Finder (4.3)
 appstore 968437868 e-Sword X (4.0)
@@ -81,19 +95,14 @@ appstore 1107185578 Flowchart Designer lite (3.2.9)
 appstore 442153412 Folders Factory (1.8)
 appstore 815333099 Foldery (1.1)
 appstore 412448059 ForkLift (2.6.6)
-appstore 1084346074 FreeChat (1.1.2)
 appstore 868968810 Fusion360 (1.27.1)
 appstore 463541543 Gemini (1.5.17)
-appstore 668208984 GIPHY CAPTURE (3.7)
 appstore 1187844952 Grafio Reader (1.0.2)
 appstore 467939042 Growl (2.1.3)
 appstore 967004861 HP Easy Scan (1.8.0)
 appstore 490152466 iBooks Author (2.6)
 appstore 585636227 Icona Folder (1.3)
-appstore 446366603 ifolor Designer (3.2.2)
-appstore 1137958278 IM+ (1.1.8)
 appstore 992115977 Image2Icon (2.8)
-appstore 0 Install macOS High Sierra (13.0.64)
 appstore 1039633667 Irvue (2.5.10)
 appstore 1022441331 iWrite (1.0)
 appstore 453114608 JSON Helper (1.07)
@@ -125,7 +134,6 @@ appstore 1091869961 Swingdo (2.2.0)
 appstore 572491815 Textastic (3.3)
 appstore 404010395 TextWrangler (5.5.2)
 appstore 425424353 The Unarchiver (3.11.3)
-appstore 1263858588 Tonebridge Guitar Effects (1.2.1)
 appstore 955778068 Toolbox for MS Office - Templates Bundle (3.4)
 appstore 403388562 Transmit (4.4.12)
 appstore 1278508951 Trello (2.9.7)
@@ -136,7 +144,6 @@ appstore 488709442 VisualJSON (1.6.0)
 appstore 617516344 VisualXML (1.4.1)
 appstore 1115322594 WeDo (2.0.3)
 appstore 1147396723 WhatsApp (0.2.5863)
-appstore 898220753 WISO steuer 2015 (5.13.9690)
 appstore 1127370416 WISO steuer 2017 (7.09.1831)
 appstore 1281329434 Wix Photo Albums (1.02)
 appstore 574184591 Writedown! (1.2)
