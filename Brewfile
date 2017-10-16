@@ -27,6 +27,9 @@ cask diskmaker-x
 cask arduino
 cask adobe-creative-cloud
 cask eclipse-installer
+cask tunnelbear
+cask shortcat
+# cask houdahspot - no licensekey
 
 # brew packages
 brew autoconf
